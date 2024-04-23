@@ -151,7 +151,7 @@ const MeetingTypeList = () => {
       <MeetingModal
         isOpen={meetingState === 'isJoiningMeeting'}
         onClose={() => setMeetingState(undefined)}
-        title="Type the link here"
+        title="Type or Paste the link here"
         className="text-center"
         buttonText="Join Meeting"
         handleClick={() => router.push(values.link)}
